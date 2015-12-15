@@ -1,7 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f371629-a1d2-4d9e-ae63-148987984a2d" name="Default" comment="" />
+    <list default="true" id="8f371629-a1d2-4d9e-ae63-148987984a2d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/ChangeRadioButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/SaveRadioNameButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/vlclib/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/com/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/com/giavaneers/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/com/giavaneers/gui/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/InternetRadio/com/giavaneers/gui/elements/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/giavaneers/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/giavaneers/gui/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/giavaneers/gui/elements/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/_DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/theme2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HelpButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SaveRadioNameButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThemeButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ThemeSelector.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InternetRadio/PjInternetRadio.class" afterPath="$PROJECT_DIR$/out/production/InternetRadio/PjInternetRadio.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/Play.png" afterPath="$PROJECT_DIR$/images/Play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InternetRadio/PlayPauseButton.class" afterPath="$PROJECT_DIR$/out/production/InternetRadio/PlayPauseButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/InternetRadio/RadioChannelButton.class" afterPath="$PROJECT_DIR$/out/production/InternetRadio/RadioChannelButton.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bird.jpg" afterPath="$PROJECT_DIR$/images/bird.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/dog.jpg" afterPath="$PROJECT_DIR$/images/dog.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/fish.jpg" afterPath="$PROJECT_DIR$/images/fish.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libFLAC.8.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libFLAC.8.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libSDL-1.3.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libSDL-1.3.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libSDL_image.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libSDL_image.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liba52_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liba52_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liba52tofloat32_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liba52tofloat32_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liba52tospdif_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liba52tospdif_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_attachment_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_attachment_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_avio_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_avio_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_bd_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_bd_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_eyetv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_eyetv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_fake_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_fake_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_ftp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_ftp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_http_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_http_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_imem_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_imem_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_mmap_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_mmap_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_mms_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_mms_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_dummy_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_dummy_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_file_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_file_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_http_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_http_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_shout_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_shout_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_udp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_output_udp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_realrtsp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_realrtsp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_tcp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_tcp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_udp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaccess_udp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libadjust_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libadjust_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libadpcm_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libadpcm_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaes3_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaes3_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaiff_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaiff_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libalphamask_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libalphamask_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaout_file_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaout_file_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaraw_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaraw_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libasf_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libasf_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libau_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libau_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaudio_format_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaudio_format_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaudiobargraph_a_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaudiobargraph_a_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaudiobargraph_v_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaudiobargraph_v_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libaudioscrobbler_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libaudioscrobbler_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libauhal_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libauhal_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libavcodec_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libavcodec_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libavformat_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libavformat_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libavi_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libavi_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libball_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libball_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libblend_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libblend_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libblendbench_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libblendbench_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libbluescreen_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libbluescreen_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libcaca.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libcaca.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcaca_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcaca_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcanvas_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcanvas_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcdda_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcdda_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcdg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcdg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libchain_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libchain_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libchorus_flanger_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libchorus_flanger_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libclone_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libclone_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcolorthres_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcolorthres_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libconverter_fixed_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libconverter_fixed_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcrop_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcrop_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcroppadd_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcroppadd_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libcvdsub_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libcvdsub_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libdca.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libdca.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdecomp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdecomp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdeinterlace_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdeinterlace_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdemux_cdg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdemux_cdg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdemuxdump_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdemuxdump_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdirac_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdirac_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdolby_surround_decoder_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdolby_surround_decoder_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdts_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdts_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdtstofloat32_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdtstofloat32_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdtstospdif_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdtstospdif_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdummy_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdummy_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libdvbpsi.6.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libdvbpsi.6.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdvbsub_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdvbsub_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libdvdcss.2.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libdvdcss.2.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libdvdnav.4.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libdvdnav.4.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdvdnav_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdvdnav_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libdvdread.4.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libdvdread.4.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdvdread_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdvdread_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libdynamicoverlay_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libdynamicoverlay_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libequalizer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libequalizer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liberase_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liberase_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libes_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libes_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libexport_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libexport_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libextract_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libextract_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfaad_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfaad_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfake_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfake_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfilesystem_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfilesystem_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libflac_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libflac_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libflacsys_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libflacsys_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfloat32_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfloat32_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libfluidsynth.1.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libfluidsynth.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfluidsynth_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfluidsynth_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfolder_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfolder_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libfontconfig.1.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libfontconfig.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libfreetype.6.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libfreetype.6.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libfreetype_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libfreetype_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libfribidi.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libfribidi.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgaussianblur_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgaussianblur_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libgcrypt.11.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libgcrypt.11.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgestures_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgestures_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libgnutls.26.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libgnutls.26.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgnutls_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgnutls_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgoom_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgoom_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgradient_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgradient_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgrain_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgrain_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgrey_yuv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgrey_yuv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgrowl_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgrowl_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libgrowl_udp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libgrowl_udp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libh264_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libh264_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libheadphone_channel_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libheadphone_channel_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libhotkeys_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libhotkeys_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_mmx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_mmx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_sse2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_rgb_sse2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_mmx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_mmx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_sse2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi420_yuy2_sse2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_i420_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_i420_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_mmx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_mmx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_sse2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libi422_yuy2_sse2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libintl.8.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libintl.8.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libinvert_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libinvert_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libinvmem_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libinvmem_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libixml.2.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libixml.2.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libkate.1.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libkate.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libkate_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libkate_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblibass_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblibass_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblibmpeg2_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblibmpeg2_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblive555_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblive555_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblogger_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblogger_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblogo_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblogo_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblpcm_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblpcm_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liblua_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liblua_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmacosx_dialog_provider_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmacosx_dialog_provider_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmacosx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmacosx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libmad.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libmad.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmagnify_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmagnify_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmarq_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmarq_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmediadirs_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmediadirs_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpy3dn_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpy3dn_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpymmx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpymmx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpymmxext_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmemcpymmxext_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libminimal_macosx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libminimal_macosx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmirror_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmirror_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmjpeg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmjpeg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmkv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmkv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmod_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmod_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmono_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmono_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmosaic_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmosaic_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmotion_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmotion_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmotionblur_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmotionblur_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmotiondetect_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmotiondetect_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmp4_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmp4_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmpc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmpc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libmpcdec.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libmpcdec.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libmpeg2.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libmpeg2.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmpeg_audio_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmpeg_audio_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmpgatofixed32_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmpgatofixed32_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmpgv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmpgv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_asf_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_asf_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_avi_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_avi_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_dummy_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_dummy_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_mp4_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_mp4_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_mpjpeg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_mpjpeg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ogg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ogg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ps_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ps_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ts_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_ts_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_wav_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libmux_wav_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libncurses_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libncurses_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnetsync_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnetsync_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnoise_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnoise_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnormvol_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnormvol_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnsc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnsc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnsv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnsv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libnuv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libnuv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libogg.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libogg.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libogg_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libogg_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liboldhttp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liboldhttp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liboldrc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liboldrc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/liboldtelnet_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/liboldtelnet_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libopengl_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libopengl_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/liborc-0.4.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/liborc-0.4.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libosd_parser_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libosd_parser_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libosdmenu_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libosdmenu_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_copy_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_copy_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_dirac_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_dirac_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_flac_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_flac_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_h264_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_h264_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mlp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mlp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpeg4audio_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpeg4audio_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpeg4video_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpeg4video_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpegvideo_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_mpegvideo_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_vc1_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpacketizer_vc1_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libparam_eq_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libparam_eq_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libplaylist_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libplaylist_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libpng14.14.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libpng14.14.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpng_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpng_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpodcast_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpodcast_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpostproc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpostproc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libps_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libps_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpsychedelic_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpsychedelic_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpuzzle_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpuzzle_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libpva_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libpva_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libqtcapture_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libqtcapture_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libquartztext_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libquartztext_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librawaud_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librawaud_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librawdv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librawdv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librawvid_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librawvid_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librawvideo_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librawvideo_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libreal_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libreal_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libremoteosd_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libremoteosd_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libripple_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libripple_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librotate_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librotate_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librss_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librss_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librtp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librtp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/librv32_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/librv32_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsap_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsap_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libscale_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libscale_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libscaletempo_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libscaletempo_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libscene_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libscene_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libschroedinger-1.0.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libschroedinger-1.0.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libschroedinger_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libschroedinger_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libscreen_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libscreen_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsdl_image_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsdl_image_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsharpen_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsharpen_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libshout.3.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libshout.3.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsignals_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsignals_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsimple_channel_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsimple_channel_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsmf_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsmf_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libspatializer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libspatializer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libspdif_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libspdif_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libspeex.1.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libspeex.1.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libspeex_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libspeex_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libspudec_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libspudec_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libsqlite3.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libsqlite3.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsqlite_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsqlite_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstats_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstats_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_filter_rar_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_filter_rar_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_filter_record_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_filter_record_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_autodel_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_autodel_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_bridge_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_bridge_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_description_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_description_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_display_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_display_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_dummy_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_dummy_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_duplicate_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_duplicate_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_es_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_es_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_gather_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_gather_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_mosaic_bridge_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_mosaic_bridge_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_raop_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_raop_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_record_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_record_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_rtp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_rtp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_smem_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_smem_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_standard_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_standard_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_transcode_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libstream_out_transcode_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsubsdec_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsubsdec_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsubsusf_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsubsusf_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsubtitle_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsubtitle_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libsvcdsub_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libsvcdsub_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libswscale_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libswscale_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libt140_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libt140_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtaglib_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtaglib_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtelx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtelx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libtheora.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libtheora.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtheora_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtheora_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libthreadutil.6.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libthreadutil.6.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtransform_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtransform_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtrivial_channel_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtrivial_channel_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtrivial_mixer_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtrivial_mixer_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libts_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libts_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtta_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtta_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libtwolame.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libtwolame.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libtwolame_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libtwolame_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libty_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libty_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libugly_resampler_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libugly_resampler_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libupnp.6.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libupnp.6.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libupnp_intel_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libupnp_intel_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvc1_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvc1_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvcd_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvcd_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvcdx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvcdx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvideo_filter_wrapper_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvideo_filter_wrapper_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvisual_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvisual_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvlc.5.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvlc.5.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvlc.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvlc.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvlccore.4.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvlccore.4.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvlccore.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvlccore.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvmem_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvmem_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvobsub_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvobsub_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvoc_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvoc_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvod_rtsp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvod_rtsp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvorbis.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvorbis.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvorbis_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvorbis_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libvorbisenc.2.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libvorbisenc.2.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvout_macosx_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvout_macosx_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libvout_wrapper_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libvout_wrapper_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libwall_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libwall_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libwav_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libwav_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libwave_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libwave_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libx264_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libx264_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libxa_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libxa_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libxml2.2.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libxml2.2.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libxml_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libxml_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libxtag_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libxtag_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libyuv_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libyuv_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libyuvp_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libyuvp_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libyuy2_i420_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libyuy2_i420_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libyuy2_i422_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libyuy2_i422_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libzip_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libzip_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/lib/libzvbi.0.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/lib/libzvbi.0.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/libzvbi_plugin.dylib" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/libzvbi_plugin.dylib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/pause.png" afterPath="$PROJECT_DIR$/images/pause.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04041e-3e8.dat" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04041e-3e8.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04041e-fe8.dat" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04041e-fe8.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04081e-3e8.dat" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04081e-3e8.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04081e-fe8.dat" afterPath="$PROJECT_DIR$/lib/vlclib/plugins/plugins-04081e-fe8.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/theme1.png" afterPath="$PROJECT_DIR$/themes/theme1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ChangeRadioButton.java" afterPath="$PROJECT_DIR$/src/ChangeRadioButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InternetRadio.iml" afterPath="$PROJECT_DIR$/InternetRadio.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyClickableShape.java" afterPath="$PROJECT_DIR$/src/MyClickableShape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PjInternetRadio.java" afterPath="$PROJECT_DIR$/src/PjInternetRadio.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PlayPauseButton.java" afterPath="$PROJECT_DIR$/src/PlayPauseButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RadioChannelButton.java" afterPath="$PROJECT_DIR$/src/RadioChannelButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/vlclib/ReadMe.txt" afterPath="$PROJECT_DIR$/lib/vlclib/ReadMe.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="InternetRadio.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,37 +376,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PjInternetRadio.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PjInternetRadio.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+            <state vertical-scroll-proportion="1.701031">
+              <caret line="99" column="80" selection-start-line="99" selection-start-column="80" selection-end-line="99" selection-end-column="80" />
               <folding>
-                <element signature="e#0#7201#0" expanded="true" />
+                <element signature="e#0#9160#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#6935#7201#0" expanded="true" />
+                <element signature="e#7200#7201#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeRadioButton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ChangeRadioButton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ChangeRadioButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1559792">
-              <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
-              <folding>
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#194#195#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GvIMediaPlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
+      <file leaf-file-name="ThemeButton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThemeButton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="68.22222">
-              <caret line="223" column="26" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaveRadioNameButton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SaveRadioNameButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThemeSelector.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ThemeSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -63,7 +435,7 @@
         <entry file="file://$PROJECT_DIR$/src/PlayPauseButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +447,7 @@
         <entry file="file://$PROJECT_DIR$/src/RadioChannelButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="5" selection-start-line="26" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,6 +465,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -108,8 +483,12 @@
         <option value="$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/TextDemo.java" />
         <option value="$PROJECT_DIR$/src/PlayPauseButton.java" />
-        <option value="$PROJECT_DIR$/src/PjInternetRadio.java" />
+        <option value="$PROJECT_DIR$/src/SaveRadioNameButton.java" />
+        <option value="$PROJECT_DIR$/src/HelpButton.java" />
         <option value="$PROJECT_DIR$/src/RadioChannelButton.java" />
+        <option value="$PROJECT_DIR$/src/ThemeSelector.java" />
+        <option value="$PROJECT_DIR$/src/PjInternetRadio.java" />
+        <option value="$PROJECT_DIR$/src/ThemeButton.java" />
         <option value="$PROJECT_DIR$/src/ChangeRadioButton.java" />
       </list>
     </option>
@@ -130,12 +509,12 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="71" />
+    <option name="x" value="146" />
     <option name="y" value="22" />
     <option name="width" value="1678" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -158,11 +537,11 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Problems" />
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,7 +570,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,9 +587,41 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="embedded" />
+              <option name="myItemId" value="InternetRadio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InternetRadio" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vlcj-1.2.0-rc2.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InternetRadio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InternetRadio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log4j-1.2.15.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -289,7 +700,7 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dynamic.classpath" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/coleobrien/Desktop/InternetRadioProject.151206/InternetRadio/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java&#10;pause&#9;PSI&#9;JAVA://com.giavaneers.gui.elements.embedded.GvIMediaPlayer#setPaused" />
+    <property name="SearchEverywhereHistoryKey" value="PjApp&#9;PSI&#9;JAVA://com.pumaj.PjApplication&#10;pause&#9;PSI&#9;JAVA://com.giavaneers.gui.elements.embedded.GvIMediaPlayer#setPaused" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
@@ -476,8 +887,8 @@
     <option name="totallyTimeSpent" value="6989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="71" y="22" width="1678" height="970" extended-state="0" />
-    <editor active="false" />
+    <frame x="146" y="22" width="1678" height="970" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -501,8 +912,8 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -518,7 +929,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="13" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/PjInternetRadio.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -532,8 +951,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -560,44 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="92" column="21" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="45" selection-start-line="160" selection-start-column="45" selection-end-line="160" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#7201#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="551" column="15" selection-start-line="551" selection-start-column="14" selection-end-line="551" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayPauseButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClickableShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="21" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,8 +989,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -624,7 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="11" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,8 +1017,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="11" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,8 +1045,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,7 +1065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="11" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,8 +1073,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,7 +1093,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="53" column="11" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,8 +1101,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="83" column="80" selection-start-line="83" selection-start-column="80" selection-end-line="83" selection-end-column="80" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -732,7 +1121,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,35 +1129,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyClickableShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#7201#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -786,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,8 +1157,38 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyClickableShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="64" column="23" selection-start-line="64" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,8 +1205,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="119" column="15" selection-start-line="119" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -824,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,8 +1232,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,8 +1245,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -862,8 +1258,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -873,8 +1271,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -886,69 +1286,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="223" column="26" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3092785">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/com.pumaj.jar!/com/pumaj/PjShape.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77797836">
-          <caret line="234" column="0" selection-start-line="234" selection-start-column="0" selection-end-line="234" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.30851063">
+          <caret line="189" column="9" selection-start-line="189" selection-start-column="9" selection-end-line="189" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/src.zip!/javax/swing/JSlider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="36" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        <state vertical-scroll-proportion="-19.0">
+          <caret line="439" column="34" selection-start-line="439" selection-start-column="31" selection-end-line="439" selection-end-column="34" />
           <folding>
-            <element signature="e#0#7201#0" expanded="true" />
-            <element signature="imports" expanded="true" />
+            <element signature="e#6486#6487#0" expanded="false" />
+            <element signature="e#6545#6546#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlayPauseButton.java">
+    <entry file="jar://$PROJECT_DIR$/lib/com.pumaj.jar!/com/pumaj/PjApplication.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.10638298">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/com.giavaneers.gui.elements.embedded.jar!/com/giavaneers/gui/elements/embedded/GvVLCMediaPlayer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26359338">
+          <caret line="146" column="31" selection-start-line="146" selection-start-column="31" selection-end-line="146" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyClickableShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.025996534">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HelpButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36395147">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/giavaneers/gui/elements/embedded/GvIMediaPlayer.java">
+    <entry file="file://$PROJECT_DIR$/themes/theme2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayPauseButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="68.22222">
-          <caret line="223" column="26" selection-start-line="223" selection-start-column="20" selection-end-line="223" selection-end-column="26" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RadioChannelButton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="5" selection-start-line="26" selection-start-column="3" selection-end-line="34" selection-end-column="5" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThemeSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="82" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SaveRadioNameButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThemeButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="91" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ChangeRadioButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1559792">
-          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PjInternetRadio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.701031">
+          <caret line="99" column="80" selection-start-line="99" selection-start-column="80" selection-end-line="99" selection-end-column="80" />
           <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#0#9160#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#6935#7201#0" expanded="true" />
+            <element signature="e#7200#7201#0" expanded="true" />
           </folding>
         </state>
       </provider>

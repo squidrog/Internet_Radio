@@ -26,6 +26,11 @@ import com.pumaj.PjApplication;
 import com.pumaj.PjRectangle;
 
 import javax.swing.*;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import java.awt.*;
+
+
 
 
 // PjInternetRadio ====================//
@@ -42,7 +47,7 @@ public class PjInternetRadio extends PjApplication {
     // public instance variables ----------//
     // (none)                              //
     // protected instance variables -------//
-    protected GvIMediaPlayer mediaPlayer;  // media player
+   static protected GvIMediaPlayer mediaPlayer;  // media player
    static String[] mediaPaths =
             {
                     "http://streams.kqed.org/kqedradio",//kqed
@@ -57,6 +62,11 @@ public class PjInternetRadio extends PjApplication {
         "KQED", "Live Ireland", "", "", "", "",
     };
     static int i = 0;
+    static PlayPauseButton myShape;
+    protected static final String [] themeImages = {
+            "themes/theme1.png", "themes/theme2.png"
+    };
+    static PjInternetRadio myRadio = new PjInternetRadio();
     // private instance variables ---------//
     // (none)                              //
 /*------------------------------------------------------------------------------
@@ -73,6 +83,7 @@ public class PjInternetRadio extends PjApplication {
      */
 //------------------------------------------------------------------------------
     public PjInternetRadio() {
+
     }
 /*------------------------------------------------------------------------------
 
@@ -88,22 +99,53 @@ public class PjInternetRadio extends PjApplication {
      */
 //------------------------------------------------------------------------------
     protected void buildGUI() {
-        // assign this app properties          //
-        setLayout(null);
-        setVisible(true);
-        setWidth(940);
-        setHeight(720);
-        // add a clickable shape 200x200       //
-        MyClickableShape myShape = new MyClickableShape();
-        myShape.setWidth(200);
-        myShape.setHeight(200);
-        myShape.setLocation(100, 100);
-        // myShape.playPause();
-        // assign image paths to the shape     //
-        myShape.setImagePaths(kRELATIVE_IMAGE_PATHS);
+        myShape = new PlayPauseButton();
+
+        myShape.setWidth(50);
+        myShape.setHeight(50);
+        myShape.setLocation(615, 260);
+
 
         // and add it to this app              //
         add(myShape);
+
+        HelpButton help = new HelpButton();
+        help.setSize(40,40);
+        help.setLocation(900, 0);
+        add(help);
+
+        ThemeButton theme = new ThemeButton();
+        theme.setSize(40,40);
+        theme.setLocation(890,640);
+        add(theme);
+
+        for (i = 0; i < mediaPaths.length; i++) {
+
+            // add a clickable shape 50x50       //
+            RadioChannelButton myShape = new RadioChannelButton( i);
+            myShape.setWidth(40);
+            myShape.setHeight(40);
+            myShape.setLocation(150, 335 + (i) * 42);
+            PjRectangle textBox = new PjRectangle();
+            textBox.setOpaque(true);
+            textBox.setHeight(40);
+            textBox.setWidth(100);
+            textBox.setLocation(50, myShape.getY());
+            JTextArea radioName = new JTextArea(channelNames[i]);
+            JScrollPane scroll = new JScrollPane(radioName);
+            scroll.setVerticalScrollBarPolicy ( ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS );
+            scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+            textBox.add(scroll);
+            add(textBox);
+            add(myShape);
+            ChangeRadioButton changeRadioButton = new ChangeRadioButton(i);
+            changeRadioButton.setHeight(40);
+            changeRadioButton.setWidth(40);
+            changeRadioButton.setLocation(myShape.getX()+50, myShape.getY());
+            add(changeRadioButton);
+
+
+        }
     }
 
 
@@ -144,33 +186,54 @@ public class PjInternetRadio extends PjApplication {
     public static void main(
             String args[]) {
         try {
+
             System.out.println(
                     "Java VM running " + System.getProperty("java.version")
                             + ", " + System.getProperty("os.arch") + ", "
                             + System.getProperty("sun.arch.data.model") + " bit");
 
-            PjInternetRadio myRadio = new PjInternetRadio();
+
 
             myRadio.setLayout(null);
 
-            GvIMediaPlayer player = myRadio.getMediaPlayer();
+            myRadio.getMediaPlayer();
+
 
             myRadio.setWidth(940);
             myRadio.setHeight(720);
 
 
-            myRadio.buildPlayButton();
-            myRadio.buildRadioChannelButton();
+
+            myRadio.setLocation(0,0);
+
+            final JSlider audioSlider = new JSlider(0, 200);
+            audioSlider.setBackground(Color.BLUE);
+            audioSlider.setSize(300, 50);
+            audioSlider.addChangeListener(new ChangeListener() {
+
+                @Override
+                public void stateChanged(ChangeEvent e) {
+                    double volValue = audioSlider.getValue();
+                    mediaPlayer.setAudioVolume(volValue/200);
+                }
+
+
+
+            });
+            audioSlider.setLocation(400,550);
+            myRadio.add(audioSlider);
+            myRadio.buildGUI();
 
 
 
 
 
 
-            // start the player                    //
-           // int pathIdx = Integer.parseInt(args[0]);
-           // player.setURI(mediaPaths[pathIdx]);
-            myRadio.setImage("themes/theme1.png");
+
+
+
+
+            myRadio.setImage(themeImages[0]);
             myRadio.setVisible(true);
 
 
@@ -182,9 +245,9 @@ public class PjInternetRadio extends PjApplication {
         }
     }
 
-    protected void buildPlayButton() {
+    /*protected void buildPlayButton() {
         // add a clickable shape 50x50       //
-        PlayPauseButton myShape = new PlayPauseButton(mediaPlayer);
+        myShape = new PlayPauseButton();
 
         myShape.setWidth(50);
         myShape.setHeight(50);
@@ -201,27 +264,32 @@ public class PjInternetRadio extends PjApplication {
         for (i = 0; i < mediaPaths.length; i++) {
 
             // add a clickable shape 50x50       //
-            RadioChannelButton myShape = new RadioChannelButton(mediaPlayer, mediaPaths, channelNames, i);
+            RadioChannelButton myShape = new RadioChannelButton( i);
             myShape.setWidth(40);
             myShape.setHeight(40);
-            myShape.setLocation(150, 300+ (i) * 40);
+            myShape.setLocation(150, 335 + (i) * 40);
             PjRectangle textBox = new PjRectangle();
             textBox.setOpaque(true);
             textBox.setHeight(40);
             textBox.setWidth(100);
             textBox.setLocation(50, myShape.getY());
-            JTextArea radioName = new JTextArea();
+            JTextArea radioName = new JTextArea(channelNames[i]);
             JScrollPane scroll = new JScrollPane(radioName);
             scroll.setVerticalScrollBarPolicy ( ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS );
             scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
             textBox.add(scroll);
             add(textBox);
             add(myShape);
+            ChangeRadioButton changeRadioButton = new ChangeRadioButton(i);
+            changeRadioButton.setHeight(40);
+            changeRadioButton.setWidth(40);
+            changeRadioButton.setLocation(myShape.getX()+50, myShape.getY());
+            add(changeRadioButton);
 
 
         }
 
-    }
+    }*/
 
 
 }//====================================// end PjInternetRadio ----------------//

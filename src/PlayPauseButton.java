@@ -1,5 +1,6 @@
 import com.giavaneers.gui.elements.embedded.GvIMediaPlayer;
 
+import java.awt.*;
 import java.awt.event.MouseEvent;
 
 /**
@@ -13,22 +14,19 @@ public class PlayPauseButton extends MyClickableShape
             {
                     "images/play.png", "images/pause.png"
             };
-    protected GvIMediaPlayer player;
-    protected String[] playPauseImages = kPlayPauseImages;
 
 
 
 
 
-    public PlayPauseButton(GvIMediaPlayer mediaPlayer)
+
+    public PlayPauseButton()
     {
 
         super();
-        this.player = mediaPlayer;
         playPause();
         this.setOpaque(false);
-        setImage(playPauseImages[1]);
-
+        setImage(kPlayPauseImages[0]);
 
     }
     public void mouseClicked(
@@ -39,16 +37,17 @@ public class PlayPauseButton extends MyClickableShape
     }
     public void playPause () {
         // performs play and pause functions
-        if (playPauseImages != null) {
-            if (player.getPlaying()) {
-                player.setPaused(true);
-                setImage(playPauseImages[0]);
-            } else if (player.getPaused()) {
-                player.setPlaying(true);
-                setImage(playPauseImages[1]);
+        if (kPlayPauseImages != null) {
+            if (PjInternetRadio.mediaPlayer.getPlaying()) {
+                PjInternetRadio.mediaPlayer.setPaused(true);
+                setImage(kPlayPauseImages[0]);
+            } else if (PjInternetRadio.mediaPlayer.getPaused()) {
+                PjInternetRadio.mediaPlayer.setPlaying(true);
+                setImage(kPlayPauseImages[1]);
             }
 
         }
 
     }
+
 }

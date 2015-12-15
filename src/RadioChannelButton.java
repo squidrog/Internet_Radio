@@ -10,25 +10,17 @@ import java.net.URISyntaxException;
 public class RadioChannelButton extends MyClickableShape {
     public int channelCount;
 
-    protected static final String[] kPlayPauseImages =
-            {
-                    "images/play.png", "images/pause.png"
-            };
-    protected String[] radioUrls;
-    protected GvIMediaPlayer player;
-    protected String[] playPauseImages = kPlayPauseImages;
-    public RadioChannelButton(GvIMediaPlayer mediaPlayer, String[] mediaPaths, String [] channelNames, int i){
+    public RadioChannelButton( int i){
         super();
-        this.player = mediaPlayer;
-        this.radioUrls = mediaPaths;
-        player.setAudioVolume(0.1);
         channelCount = i;
     }
     public void mouseClicked(
             MouseEvent event)
     {
         try {
-            player.setURI(radioUrls[channelCount]);
+            PjInternetRadio.mediaPlayer.setURI(PjInternetRadio.mediaPaths[channelCount]);
+            PjInternetRadio.myShape.setImage(PlayPauseButton.kPlayPauseImages[1]);
+
         } catch (URISyntaxException e) {
             e.printStackTrace();
         }
