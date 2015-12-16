@@ -6,7 +6,7 @@ import java.awt.event.MouseEvent;
 public class ThemeButton extends MyClickableShape {
     static int themeNumber = 0;
     protected static final String [] themeButtonImages = {
-
+        "buttons/thumb5.png","buttons/thumb4.png","buttons/thumb3.png","buttons/thumb2.png", "buttons/thumb1.png"
     };
     public ThemeButton(){
         super();
@@ -17,7 +17,7 @@ public class ThemeButton extends MyClickableShape {
         PjInternetRadio themeApp = new PjInternetRadio();
         themeApp.setWidth(100);
         themeApp.setHeight(200);
-        themeApp.setLocation(840,520);
+        themeApp.setLocation(1266,568);
 
         for (themeNumber = 0;themeNumber < PjInternetRadio.themeImages.length;themeNumber++){
             ThemeSelector theme = new ThemeSelector();
@@ -30,7 +30,7 @@ public class ThemeButton extends MyClickableShape {
              theme.setLocation(65, (themeNumber/2)*50 + 10);
             }
             themeApp.add(theme);
-            //theme.setImage(themeButtonImages[themeNumber]);
+            theme.setImage(themeButtonImages[themeNumber]);
 
         }
         themeApp.setVisible(true);

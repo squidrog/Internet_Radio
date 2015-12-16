@@ -15,7 +15,7 @@ public class HelpButton extends MyClickableShape {
         helpApp.setHeight(1000);
         helpApp.setWidth(1000);
         helpApp.setLocation(0,0);
-        //helpApp.setImage();
+        helpApp.setImage("images/user guide.png");
         helpApp.setVisible(true);
     }
 }

@@ -12,12 +12,15 @@ import java.awt.event.MouseEvent;
 public class ChangeRadioButton extends MyClickableShape {
 
 protected int radioCount;
-
+    public static final String [] uriImages = {
+            "buttons/changeURI1.png", "buttons/changeURI2.png", "buttons/changeURI3.png","buttons/changeURI4.png","buttons/changeURI5.png", "buttons/changeURI6.png"
+    };
 
     public ChangeRadioButton ( int i){
         super();
 
         radioCount = i;
+        setImage(uriImages[i]);
 
     }
 
@@ -28,15 +31,13 @@ protected int radioCount;
         PjApplication radioURIApp = new PjApplication();
         radioURIApp.setHeight(110);
         radioURIApp.setWidth(170);
-        //radioURIApp.setImage("put image link here");
         radioURIApp.setLayout(null);
         radioURIApp.setLocation(0,0);
         PjRectangle textBox = new PjRectangle();
         textBox.setOpaque(true);
-        textBox.setHeight(50);
+        textBox.setHeight(40);
         textBox.setWidth(120);
-        JTextArea radioName = new JTextArea("Current radio: " + PjInternetRadio.channelNames[radioCount] + "\nURI: "
-                + PjInternetRadio.mediaPaths[radioCount]);
+        JTextArea radioName = new JTextArea("URI: " + PjInternetRadio.mediaPaths[radioCount]);
         radioName.setEditable(false);
         JScrollPane scroll = new JScrollPane(radioName);
         scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
@@ -64,6 +65,5 @@ protected int radioCount;
         saveRadio.setLocation(130,0);
 
         radioURIApp.setVisible(true);
-        // find a way to clsoe application once uri is saved
     }
 }

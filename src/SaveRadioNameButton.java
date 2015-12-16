@@ -17,7 +17,7 @@ public class SaveRadioNameButton extends MyClickableShape {
 
     public SaveRadioNameButton ( int radioCount, JTextArea enteredRadio){
         super();
-        //setImage("save image file directory");
+        setImage("buttons/save.png");
 
         int i = radioCount;
 

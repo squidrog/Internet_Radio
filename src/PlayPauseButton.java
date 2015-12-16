@@ -26,7 +26,7 @@ public class PlayPauseButton extends MyClickableShape
         super();
         playPause();
         this.setOpaque(false);
-        setImage(kPlayPauseImages[0]);
+        //setImage(kPlayPauseImages[0]);
 
     }
     public void mouseClicked(

@@ -64,7 +64,10 @@ public class PjInternetRadio extends PjApplication {
     static int i = 0;
     static PlayPauseButton myShape;
     protected static final String [] themeImages = {
-            "themes/theme1.png", "themes/theme2.png"
+            "themes/theme1.png", "themes/theme2.png", "themes/theme3.png", "themes/theme4.png", "themes/theme5.png"
+    };
+    public static final String [] choose = {
+            "buttons/choose1.png","buttons/choose2.png","buttons/choose3.png","buttons/choose4.png","buttons/choose5.png","buttons/choose6.png",
     };
     static PjInternetRadio myRadio = new PjInternetRadio();
     // private instance variables ---------//
@@ -103,20 +106,25 @@ public class PjInternetRadio extends PjApplication {
 
         myShape.setWidth(50);
         myShape.setHeight(50);
-        myShape.setLocation(615, 260);
+        myShape.setLocation(655, 460);
 
 
-        // and add it to this app              //
+
         add(myShape);
 
         HelpButton help = new HelpButton();
+        help.setLocation(1326, 0);
         help.setSize(40,40);
-        help.setLocation(900, 0);
+        help.setImage("buttons/help.png");
+
         add(help);
 
         ThemeButton theme = new ThemeButton();
+        theme.setLocation(1316,688);
         theme.setSize(40,40);
-        theme.setLocation(890,640);
+        theme.setImage("buttons/choosetheme.jpg");
+
+
         add(theme);
 
         for (i = 0; i < mediaPaths.length; i++) {
@@ -125,18 +133,19 @@ public class PjInternetRadio extends PjApplication {
             RadioChannelButton myShape = new RadioChannelButton( i);
             myShape.setWidth(40);
             myShape.setHeight(40);
-            myShape.setLocation(150, 335 + (i) * 42);
+            myShape.setLocation(170, 365 + (i) * 42);
             PjRectangle textBox = new PjRectangle();
             textBox.setOpaque(true);
             textBox.setHeight(40);
             textBox.setWidth(100);
-            textBox.setLocation(50, myShape.getY());
+            textBox.setLocation(70, myShape.getY());
             JTextArea radioName = new JTextArea(channelNames[i]);
             JScrollPane scroll = new JScrollPane(radioName);
             scroll.setVerticalScrollBarPolicy ( ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS );
             scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
             textBox.add(scroll);
             add(textBox);
+            myShape.setImage(choose[i]);
             add(myShape);
             ChangeRadioButton changeRadioButton = new ChangeRadioButton(i);
             changeRadioButton.setHeight(40);
@@ -199,8 +208,8 @@ public class PjInternetRadio extends PjApplication {
             myRadio.getMediaPlayer();
 
 
-            myRadio.setWidth(940);
-            myRadio.setHeight(720);
+            myRadio.setWidth(1366);
+            myRadio.setHeight(768);
 
 
 
@@ -220,7 +229,7 @@ public class PjInternetRadio extends PjApplication {
 
 
             });
-            audioSlider.setLocation(400,550);
+            audioSlider.setLocation(600,650);
             myRadio.add(audioSlider);
             myRadio.buildGUI();
 
@@ -244,52 +253,5 @@ public class PjInternetRadio extends PjApplication {
             e.printStackTrace();
         }
     }
-
-    /*protected void buildPlayButton() {
-        // add a clickable shape 50x50       //
-        myShape = new PlayPauseButton();
-
-        myShape.setWidth(50);
-        myShape.setHeight(50);
-        myShape.setLocation(615, 260);
-
-
-        // and add it to this app              //
-        add(myShape);
-
-
-    }
-    protected void buildRadioChannelButton() {
-
-        for (i = 0; i < mediaPaths.length; i++) {
-
-            // add a clickable shape 50x50       //
-            RadioChannelButton myShape = new RadioChannelButton( i);
-            myShape.setWidth(40);
-            myShape.setHeight(40);
-            myShape.setLocation(150, 335 + (i) * 40);
-            PjRectangle textBox = new PjRectangle();
-            textBox.setOpaque(true);
-            textBox.setHeight(40);
-            textBox.setWidth(100);
-            textBox.setLocation(50, myShape.getY());
-            JTextArea radioName = new JTextArea(channelNames[i]);
-            JScrollPane scroll = new JScrollPane(radioName);
-            scroll.setVerticalScrollBarPolicy ( ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS );
-            scroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-            textBox.add(scroll);
-            add(textBox);
-            add(myShape);
-            ChangeRadioButton changeRadioButton = new ChangeRadioButton(i);
-            changeRadioButton.setHeight(40);
-            changeRadioButton.setWidth(40);
-            changeRadioButton.setLocation(myShape.getX()+50, myShape.getY());
-            add(changeRadioButton);
-
-
-        }
-
-    }*/
-
 
 }//====================================// end PjInternetRadio ----------------//

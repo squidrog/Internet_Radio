@@ -9,7 +9,6 @@ import java.net.URISyntaxException;
  */
 public class RadioChannelButton extends MyClickableShape {
     public int channelCount;
-
     public RadioChannelButton( int i){
         super();
         channelCount = i;
